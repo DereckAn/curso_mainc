@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "curso-de-minecraft-pago",
+	"version": "${version}",
+	"name": "Curso de Minecraft Pago",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Dereck Angeles"
+	],
+	"contact": {
+		"homepage": "https://dereckan.com",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/curso-de-minecraft-pago/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dereckan.cursopago.CursoDeMinecraftPago"
+		],
+		"fabric-datagen": [
+			"net.dereckan.cursopago.CursoDeMinecraftPagoDataGenerator"
+		],
+		"client" : [
+			"net.dereckan.cursopago.CurseoDeMinecraftPagoClient"
+		]
+	},
+	"mixins": [
+		"curso-de-minecraft-pago.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
