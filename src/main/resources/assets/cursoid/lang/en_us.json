@@ -1,10 +1,11 @@
 {
   "item.cursoid.fluorite": "Fluorite",
   "item.cursoid.raw_fluorite": "Raw Fluorite",
-
   "block.cursoid.fluorite_block": "Fluorite Block",
-
-
+  "block.cursoid.fluorite_ore": "Fluorite Ore",
+  "block.cursoid.fluorite_deepslate_ore": "Fluorite Deepslate Ore",
+  "block.cursoid.fluorite_nether_ore": "Fluorite Nether Ore",
+  "block.cursoid.fluorite_end_ore": "Fluorite End Ore",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks"
 }

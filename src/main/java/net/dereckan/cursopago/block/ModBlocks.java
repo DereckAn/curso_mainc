@@ -4,29 +4,86 @@ import com.jcraft.jogg.Page;
 import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
+/**
+ * Clase que maneja el registro de nuevos bloques para el mod.
+ * Esta clase es fundamental para añadir y gestionar nuevos bloques en el juego.
+ */
 public class ModBlocks {
 
+    /**
+     * Bloque de Fluorita con propiedades personalizadas.
+     * <p>
+     * Propiedades:
+     * - Sonido: Similar al bloque de amatista
+     * - Dureza: 4.0
+     * - Requiere herramienta para ser minado
+     */
     public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(4f).requiresTool()));
+            new Block(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .strength(4f)
+                    .requiresTool()));
 
+    public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4), AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()));
 
+    public static final Block FLUORITE_DEEPSLATE_ORE = registerBlock("fluorite_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+                    .strength(6f)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_NETHER_ORE = registerBlock("fluorite_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+                    .strength(6f)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_END_ORE = registerBlock("fluorite_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+                    .strength(6f)
+                    .requiresTool()));
+
+    /**
+     * Registra un nuevo bloque en el juego y su item correspondiente.
+     *
+     * @param name  El nombre identificador del bloque
+     * @param block El bloque a registrar
+     * @return El bloque registrado
+     */
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(CursoDeMinecraftPago.MOD_ID, name), block);
     }
 
+    /**
+     * Crea y registra el item correspondiente a un bloque.
+     * Esto permite que el bloque aparezca en el inventario del jugador.
+     *
+     * @param name  El nombre identificador del item del bloque
+     * @param block El bloque para el cual crear el item
+     */
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(CursoDeMinecraftPago.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 
+    /**
+     * Método principal para inicializar todos los bloques del mod.
+     * Este método debe ser llamado durante la inicialización del mod.
+     * <p>
+     * Registra un mensaje en el log cuando se inicializan los bloques,
+     * sirviendo como punto de entrada para el registro de bloques.
+     */
     public static void registerModBlocks() {
         CursoDeMinecraftPago.LOGGER.info("Registering Mod Blocks for " + CursoDeMinecraftPago.MOD_ID);
     }
