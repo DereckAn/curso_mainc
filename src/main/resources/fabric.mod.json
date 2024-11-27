@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "curso-de-minecraft-pago",
+	"id": "cursoid",
 	"version": "${version}",
 	"name": "Curso de Minecraft Pago",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/curso-de-minecraft-pago/icon.png",
+	"icon": "assets/cursoid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -22,11 +22,11 @@
 			"net.dereckan.cursopago.CursoDeMinecraftPagoDataGenerator"
 		],
 		"client" : [
-			"net.dereckan.cursopago.CurseoDeMinecraftPagoClient"
+			"net.dereckan.cursopago.CursoDeMinecraftPagoClient"
 		]
 	},
 	"mixins": [
-		"curso-de-minecraft-pago.mixins.json"
+		"cursoid.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
