@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "cursoid:fluorite"
+    },
+    "p": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "p#p",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursoid:raw_fluorite"
+  }
+}
