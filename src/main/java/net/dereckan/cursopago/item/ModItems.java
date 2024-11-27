@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     // Aqui estamos creando nuevos items.
-    private static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
-    private static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
+    public static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
+    public static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
 
     /**
      * Este metodo lo reusaremos para cuando queramos crear nuevos items.

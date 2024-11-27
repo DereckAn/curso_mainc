@@ -1,5 +1,6 @@
 package net.dereckan.cursopago;
 
+import net.dereckan.cursopago.item.ModItemGroups;
 import net.dereckan.cursopago.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,8 +13,7 @@ public class CursoDeMinecraftPago implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
