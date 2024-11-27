@@ -2,6 +2,8 @@
   "item.cursoid.fluorite": "Fluorite",
   "item.cursoid.raw_fluorite": "Raw Fluorite",
 
+  "block.cursoid.fluorite_block": "Fluorite Block",
+
 
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks"
