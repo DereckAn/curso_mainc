@@ -1,6 +1,7 @@
 package net.dereckan.cursopago.item;
 
 import net.dereckan.cursopago.CursoDeMinecraftPago;
+import net.dereckan.cursopago.item.custom.ChainSawItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -14,6 +15,7 @@ public class ModItems {
     // Aqui estamos creando nuevos items.
     public static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
+    public static final Item CHAINSAW = registerItem("chainsaw", new ChainSawItem(new Item.Settings().maxDamage(12)));
 
     /**
      * Este metodo lo reusaremos para cuando queramos crear nuevos items.
