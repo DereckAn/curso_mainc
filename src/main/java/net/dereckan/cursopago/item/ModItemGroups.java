@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.FLUORITE_NETHER_ORE);
                         entries.add(ModBlocks.FLUORITE_END_ORE);
+                        entries.add(ModBlocks.MAGIN_BLOCK);
                     }).build());
 
 

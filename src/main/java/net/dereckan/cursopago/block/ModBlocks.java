@@ -2,6 +2,7 @@ package net.dereckan.cursopago.block;
 
 import com.jcraft.jogg.Page;
 import net.dereckan.cursopago.CursoDeMinecraftPago;
+import net.dereckan.cursopago.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -52,6 +53,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
                     .strength(6f)
                     .requiresTool()));
+    public static final Block MAGIN_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     /**
      * Registra un nuevo bloque en el juego y su item correspondiente.
