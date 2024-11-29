@@ -7,9 +7,14 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 
 public class ModItems {
 
@@ -17,7 +22,13 @@ public class ModItems {
     public static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
     public static final Item CHAINSAW = registerItem("chainsaw", new ChainSawItem(new Item.Settings().maxDamage(32)));
-    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponent.STRAWBERRY)));
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponent.STRAWBERRY)){
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.cursoid.strawberry.tooltip.1"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
 
     /**
