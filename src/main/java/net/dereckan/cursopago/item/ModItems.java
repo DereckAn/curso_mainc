@@ -4,6 +4,7 @@ import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.dereckan.cursopago.item.custom.ChainSawItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,7 +16,8 @@ public class ModItems {
     // Aqui estamos creando nuevos items.
     public static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
-    public static final Item CHAINSAW = registerItem("chainsaw", new ChainSawItem(new Item.Settings().maxDamage(12)));
+    public static final Item CHAINSAW = registerItem("chainsaw", new ChainSawItem(new Item.Settings().maxDamage(32)));
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponent.STRAWBERRY)));
 
     /**
      * Este metodo lo reusaremos para cuando queramos crear nuevos items.
@@ -32,8 +34,8 @@ public class ModItems {
      * customIngredients es un método que organiza y agrupa los items FLUORITE y RAW_FLUORITE para que aparezcan juntos en un grupo específico del inventario creativo, mejorando la experiencia del usuario al interactuar con los nuevos items del mod.
      */
     private static void customIngredients(FabricItemGroupEntries entries) {
-        entries.add(FLUORITE);
-        entries.add(RAW_FLUORITE);
+//        entries.add(FLUORITE);
+//        entries.add(RAW_FLUORITE);
     }
 
     /**

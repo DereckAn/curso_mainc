@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FLUORITE);
                         entries.add(ModItems.RAW_FLUORITE);
                         entries.add(ModItems.CHAINSAW);
+                        entries.add(ModItems.STRAWBERRY);
                     }).build());
 
     public static final ItemGroup FLUORITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
