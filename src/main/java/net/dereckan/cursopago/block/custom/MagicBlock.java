@@ -1,6 +1,7 @@
 package net.dereckan.cursopago.block.custom;
 
 import net.dereckan.cursopago.item.ModItems;
+import net.dereckan.cursopago.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -96,9 +97,10 @@ public class MagicBlock extends Block {
      * @return true si el item puede ser transformado, false en caso contrario
      */
     private boolean isValidItem(ItemStack stack) {
-        return stack.getItem() == ModItems.FLUORITE ||
-                stack.getItem() == ModItems.RAW_FLUORITE ||
-                stack.getItem() == Items.COAL;
+//        return stack.getItem() == ModItems.FLUORITE ||
+//                stack.getItem() == ModItems.RAW_FLUORITE ||
+//                stack.getItem() == Items.COAL;
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
