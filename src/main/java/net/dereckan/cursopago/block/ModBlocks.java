@@ -77,6 +77,22 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .requiresTool()));
 
+    public static final Block FLUORITE_FENCE = registerBlock("fluorite_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_FENCE_GATE = registerBlock("fluorite_fence_gate",
+            new FenceGateBlock(WoodType.SPRUCE, AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
+
+
     /**
      * Registra un nuevo bloque en el juego y su item correspondiente.
      *
