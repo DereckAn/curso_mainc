@@ -33,6 +33,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FLUORITE_DEEPSLATE_ORE, customOreDrops(ModBlocks.FLUORITE_DEEPSLATE_ORE, ModItems.RAW_FLUORITE, 2, 4));
         addDrop(ModBlocks.FLUORITE_NETHER_ORE, customOreDrops(ModBlocks.FLUORITE_NETHER_ORE, ModItems.RAW_FLUORITE, 3, 6));
         addDrop(ModBlocks.FLUORITE_END_ORE, customOreDrops(ModBlocks.FLUORITE_END_ORE, ModItems.RAW_FLUORITE, 3, 6));
+
+        addDrop(ModBlocks.FLUORITE_STAIRS);
+        addDrop(ModBlocks.FLUORITE_SLAB,slabDrops(ModBlocks.FLUORITE_SLAB));
     }
 
     public LootTable.Builder customOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

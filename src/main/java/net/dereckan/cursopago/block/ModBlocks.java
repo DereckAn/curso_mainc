@@ -3,9 +3,7 @@ package net.dereckan.cursopago.block;
 import com.jcraft.jogg.Page;
 import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.dereckan.cursopago.block.custom.MagicBlock;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -55,6 +53,16 @@ public class ModBlocks {
                     .requiresTool()));
     public static final Block MAGIN_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
+    public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
+            new StairsBlock(ModBlocks.FLUORITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_SLAB = registerBlock("fluorite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
 
     /**
      * Registra un nuevo bloque en el juego y su item correspondiente.

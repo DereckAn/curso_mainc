@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cursoid:block/fluorite_slab"
+    },
+    "type=double": {
+      "model": "cursoid:block/fluorite_block"
+    },
+    "type=top": {
+      "model": "cursoid:block/fluorite_slab_top"
+    }
+  }
+}

@@ -10,6 +10,8 @@
   "block.cursoid.fluorite_deepslate_ore": "Fluorite Deepslate Ore",
   "block.cursoid.fluorite_nether_ore": "Fluorite Nether Ore",
   "block.cursoid.fluorite_end_ore": "Fluorite End Ore",
+  "block.cursoid.fluorite_stairs": "Fluorite Stairs",
+  "block.cursoid.fluorite_slab": "Fluorite Slab",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks",
   "tooltip.cursoid.chainsaw.tooltip.shift": "Hold §eSHIFT§r for more information!",

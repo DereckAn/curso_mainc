@@ -33,6 +33,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_NETHER_ORE);
                         entries.add(ModBlocks.FLUORITE_END_ORE);
                         entries.add(ModBlocks.MAGIN_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_STAIRS);
+                        entries.add(ModBlocks.FLUORITE_SLAB);
                     }).build());
 
 
