@@ -12,6 +12,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
+import java.awt.*;
+
 /**
  * Clase que maneja el registro de nuevos bloques para el mod.
  * Esta clase es fundamental para añadir y gestionar nuevos bloques en el juego.
@@ -51,6 +53,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
                     .strength(6f)
                     .requiresTool()));
+
     public static final Block MAGIN_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
@@ -61,6 +64,16 @@ public class ModBlocks {
 
     public static final Block FLUORITE_SLAB = registerBlock("fluorite_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_BUTTON = registerBlock("fluorite_button",
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()));
+
+    public static final Block FLUORITE_PRESSURE_PLATE = registerBlock("fluorite_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(4f)
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .requiresTool()));
 

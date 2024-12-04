@@ -12,6 +12,8 @@
   "block.cursoid.fluorite_end_ore": "Fluorite End Ore",
   "block.cursoid.fluorite_stairs": "Fluorite Stairs",
   "block.cursoid.fluorite_slab": "Fluorite Slab",
+  "block.cursoid.fluorite_button": "Fluorite Button",
+  "block.cursoid.fluorite_pressure_plate": "Fluorite Pressure Plate",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks",
   "tooltip.cursoid.chainsaw.tooltip.shift": "Hold §eSHIFT§r for more information!",
