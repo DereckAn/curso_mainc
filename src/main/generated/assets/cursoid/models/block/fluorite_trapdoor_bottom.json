@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "cursoid:block/fluorite_trapdoor"
+  }
+}

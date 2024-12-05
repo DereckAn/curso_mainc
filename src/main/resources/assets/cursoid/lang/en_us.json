@@ -17,6 +17,8 @@
   "block.cursoid.fluorite_fence": "Fluorite Fence",
   "block.cursoid.fluorite_fence_gate": "Fluorite Fence Gate",
   "block.cursoid.fluorite_wall": "Fluorite Wall",
+  "block.cursoid.fluorite_trapdoor": "Fluorite Trapdoor",
+  "block.cursoid.fluorite_door": "Fluorite Door",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks",
   "tooltip.cursoid.chainsaw.tooltip.shift": "Hold §eSHIFT§r for more information!",

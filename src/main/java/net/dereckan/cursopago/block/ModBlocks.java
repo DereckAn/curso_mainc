@@ -92,6 +92,18 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .requiresTool()));
 
+    public static final Block FLUORITE_DOOR = registerBlock("fluorite_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .nonOpaque()
+                    .requiresTool()));
+
+    public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .nonOpaque()
+                    .requiresTool()));
+
 
     /**
      * Registra un nuevo bloque en el juego y su item correspondiente.

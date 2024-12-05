@@ -36,6 +36,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.FLUORITE_STAIRS);
         addDrop(ModBlocks.FLUORITE_SLAB,slabDrops(ModBlocks.FLUORITE_SLAB));
+
+        addDrop(ModBlocks.FLUORITE_DOOR, doorDrops(ModBlocks.FLUORITE_DOOR));
+        addDrop(ModBlocks.FLUORITE_TRAPDOOR);
     }
 
     public LootTable.Builder customOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
