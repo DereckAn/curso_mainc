@@ -50,5 +50,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE))
                 .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
                 .offerTo(recipeExporter, Identifier.of(CursoDeMinecraftPago.MOD_ID, "raw_fluorite_2"));
+
+
     }
 }
