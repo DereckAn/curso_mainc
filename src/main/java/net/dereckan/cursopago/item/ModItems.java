@@ -2,6 +2,7 @@ package net.dereckan.cursopago.item;
 
 import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.dereckan.cursopago.item.custom.ChainSawItem;
+import net.dereckan.cursopago.item.custom.HammerItem;
 import net.dereckan.cursopago.item.custom.PaxelItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -42,6 +43,8 @@ public class ModItems {
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 0, -3F))));
     public static final Item FLUORITE_PAXEL = registerItem("fluorite_paxel", new PaxelItem(ModToolMaterials.FLUORITE,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 4, -2.3F))));
+    public static final Item FLUORITE_HAMMER = registerItem("fluorite_hammer", new HammerItem(ModToolMaterials.FLUORITE,
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 8, -3.3F))));
 
     /**
      * Este metodo lo reusaremos para cuando queramos crear nuevos items.
