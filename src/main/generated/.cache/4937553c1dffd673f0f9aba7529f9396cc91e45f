@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-06T11:52:01.850233	Curso de Minecraft Pago/Model Definitions
+// 1.21.1	2024-12-09T04:13:51.232038	Curso de Minecraft Pago/Model Definitions
 3b4a0c5df17afc8870a956c3dd8f8dcc299b38ce assets/cursoid/blockstates/fluorite_nether_ore.json
 a8d46a0931fded05dff8c026b10cc31e1966f423 assets/cursoid/models/item/fluorite_wall.json
 afe085c2fec5825ff6af588d4ce28bca808a6d40 assets/cursoid/models/block/fluorite_pressure_plate_down.json
@@ -26,16 +26,16 @@ f04d25fe0113cb6b2bdb781364ea31b90fa5f69c assets/cursoid/models/block/fluorite_fe
 4cedc9ead64730532d04b29cdd5ac21729ce04c4 assets/cursoid/models/block/fluorite_block.json
 e144ec4c996fbeb3dbd0b7f8e5cc1a83e153e086 assets/cursoid/models/item/fluorite_stairs.json
 c92775993d2ced7b0ecd9584dc04de1be819dbff assets/cursoid/blockstates/fluorite_ore.json
-7319a4addc7b5f70290b0d6820582b8561ee6319 assets/cursoid/blockstates/fluorite_stairs.json
 42c4bb9da4f3166d35af6adffa01b3e012b74498 assets/cursoid/models/block/fluorite_trapdoor_open.json
+7319a4addc7b5f70290b0d6820582b8561ee6319 assets/cursoid/blockstates/fluorite_stairs.json
 bea8e22b4a36d234c0d6c1cad7c247b5a6ff8a8c assets/cursoid/models/block/fluorite_end_ore.json
 48e93d763dcb66272840c49309b463a1df12751b assets/cursoid/models/block/fluorite_ore.json
 413f771fbfab0540fe5e50ecb3f52b59532228bf assets/cursoid/models/item/fluorite_door.json
 14dca5734cc16face42b0f27d6cc9b1fa00b0fe4 assets/cursoid/models/item/fluorite_trapdoor.json
 28135e8f8dd109f4369291ca82a038025ff0e3d6 assets/cursoid/models/item/fluorite_slab.json
 664e7b58ba2d368dc022628e49ade0229c0738ed assets/cursoid/models/block/fluorite_trapdoor_top.json
-f5455f6feb33948ee63320bda890d6314d71287d assets/cursoid/models/item/raw_fluorite.json
 268b166ea888a26712e4bdb7c08886495b0bd4e8 assets/cursoid/models/block/fluorite_door_top_right.json
+f5455f6feb33948ee63320bda890d6314d71287d assets/cursoid/models/item/raw_fluorite.json
 d70bc50fa2658fa0a5e192d2e0601fa0eecc049f assets/cursoid/models/block/fluorite_deepslate_ore.json
 beee5746b40080ec46e9b58e45732b81abaa381f assets/cursoid/models/item/fluorite_hoe.json
 b1171e64cbfe47f3c5d7477ca2f0fb64bf0bd5c8 assets/cursoid/models/item/fluorite_deepslate_ore.json
@@ -50,6 +50,7 @@ a6e391ae094afe33c19ae886fa6c67c6a9e21d2c assets/cursoid/blockstates/fluorite_blo
 667fa3a1c44e65b3e2bed20084c99864e259bd71 assets/cursoid/models/block/fluorite_door_bottom_right.json
 eab7a3e318ec0c76b0c697cdbf1395dca4c8d7b8 assets/cursoid/models/item/fluorite_nether_ore.json
 47d8850ce9b5a565415a7a099da54703d7a06ab8 assets/cursoid/models/block/fluorite_stairs_inner.json
+2861f0ddd8c3e6e58083d2223672c7df7326c46d assets/cursoid/models/item/fluorite_paxel.json
 7b81a5d64a391d87cd925bca3c72da6a8b4bd0db assets/cursoid/models/block/fluorite_door_bottom_left_open.json
 dd08d0e5f87a04a01dd2bbf6ccf890d541846cb2 assets/cursoid/models/block/fluorite_trapdoor_bottom.json
 e728adfb359334caaebcaa2cdd86634f896ee9b8 assets/cursoid/models/block/fluorite_door_bottom_right_open.json

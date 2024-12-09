@@ -4,7 +4,9 @@
 package net.dereckan.cursopago.datagen;
 
 // Importaciones necesarias
+
 import net.dereckan.cursopago.block.ModBlocks;
+import net.dereckan.cursopago.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -21,7 +23,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     /**
      * Constructor de la clase ModBlockTagProvider.
      *
-     * @param output Objeto FabricDataOutput que maneja la salida de datos generados
+     * @param output           Objeto FabricDataOutput que maneja la salida de datos generados
      * @param registriesFuture CompletableFuture que contiene el registro de lookups necesario para la generación de tags
      */
     public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
@@ -59,5 +61,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.FLUORITE_WALL);
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.FLUORITE_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.FLUORITE_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE).forceAddTag(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(BlockTags.AXE_MINEABLE)
+                .forceAddTag(BlockTags.SHOVEL_MINEABLE);
     }
 }
