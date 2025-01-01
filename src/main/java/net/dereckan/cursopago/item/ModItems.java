@@ -1,10 +1,7 @@
 package net.dereckan.cursopago.item;
 
 import net.dereckan.cursopago.CursoDeMinecraftPago;
-import net.dereckan.cursopago.item.custom.ChainSawItem;
-import net.dereckan.cursopago.item.custom.HammerItem;
-import net.dereckan.cursopago.item.custom.ModEffectSwordItem;
-import net.dereckan.cursopago.item.custom.PaxelItem;
+import net.dereckan.cursopago.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffects;
@@ -47,7 +44,7 @@ public class ModItems {
     public static final Item FLUORITE_HAMMER = registerItem("fluorite_hammer", new HammerItem(ModToolMaterials.FLUORITE,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 8, -3.3F))));
 
-    public static final Item FLUORITE_HELMET = registerItem("fluorite_helmet", new ArmorItem(ModArmorMaterial.FLUORITE_ARMOR_MATERIAL,
+    public static final Item FLUORITE_HELMET = registerItem("fluorite_helmet", new ModArmorItem(ModArmorMaterial.FLUORITE_ARMOR_MATERIAL,
             ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
     public static final Item FLUORITE_CHESTPLATE = registerItem("fluorite_chestplate", new ArmorItem(ModArmorMaterial.FLUORITE_ARMOR_MATERIAL,
             ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
