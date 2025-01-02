@@ -51,6 +51,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
                 .offerTo(recipeExporter, Identifier.of(CursoDeMinecraftPago.MOD_ID, "raw_fluorite_2"));
 
-
+        offerSmithingTrimRecipe(recipeExporter, ModItems.KAUPEN_SMITHING_TEMPLATE, Identifier.of(CursoDeMinecraftPago.MOD_ID, "kaupen"));
     }
 }

@@ -1,3 +1,5 @@
-// 1.21.1	2025-01-02T04:08:29.516524	Curso de Minecraft Pago/Tags for minecraft:item
+// 1.21.1	2025-01-02T05:57:08.252372	Curso de Minecraft Pago/Tags for minecraft:item
 f41c3f2773ae9995d7ff5951aab5bf81c95b1808 data/minecraft/tags/item/trimmable_armor.json
+9130ebe0bdec26e174fa31912ae32e29123761a2 data/minecraft/tags/item/trim_materials.json
 a91ee79e842eac5c56a5c86fc663b0c3803932bd data/cursoid/tags/item/transformable_items.json
+b2e12c1307a4edc91d36c72dd5d9df673758aed2 data/minecraft/tags/item/trim_templates.json

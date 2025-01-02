@@ -4,12 +4,9 @@ import net.dereckan.cursopago.item.ModItems;
 import net.dereckan.cursopago.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import net.minecraft.registry.tag.TagKey;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -57,5 +54,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.FLUORITE_CHESTPLATE)  // Adds fluorite chestplate to trimmable armor
                 .add(ModItems.FLUORITE_LEGGINGS)    // Adds fluorite leggings to trimmable armor
                 .add(ModItems.FLUORITE_BOOTS);      // Adds fluorite boots to trimmable armor
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.FLUORITE);      // Adds custom fluorite item
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.KAUPEN_SMITHING_TEMPLATE);      // Adds custom fluorite item.
     }
 }

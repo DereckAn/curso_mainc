@@ -16,6 +16,7 @@
   "item.cursoid.fluorite_leggings": "Fluorite Leggings",
   "item.cursoid.fluorite_helmet": "Fluorite Helmet",
   "item.cursoid.fluorite_horse_armor": "Fluorite Horse Armor",
+  "item.cursoid.kaupen_armor_trim_smithing_template": "Kaupen Armor Trim Smithing Template",
   "block.cursoid.fluorite_block": "Fluorite Block",
   "block.cursoid.magic_block": "Magic Block",
   "block.cursoid.fluorite_ore": "Fluorite Ore",
@@ -38,5 +39,7 @@
   "tooltip.cursoid.chainsaw.tooltip.shift 2": "It can be used to cut down trees by right-clicking on the bottom block of the tree.",
   "tooltip.cursoid.chainsaw.tooltip.shift 3": "§oIt can also be used to cut down trees by right-clicking on the top block of the tree.§r",
   "tooltip.cursoid.magic_block.1": "This block is a §9magic§r block.",
-  "tooltip.cursoid.strawberry.tooltip.1": "This is a §cstrawberry§r."
+  "tooltip.cursoid.strawberry.tooltip.1": "This is a §cstrawberry§r.",
+  "trim_material.cursoid.fluorite": "Fluorite Material",
+  "trim_pattern.cursoid.kaupen": "Kaupen Armor Pattern"
 }

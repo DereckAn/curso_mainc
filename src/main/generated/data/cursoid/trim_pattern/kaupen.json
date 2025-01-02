@@ -1,0 +1,8 @@
+{
+  "asset_id": "cursoid:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.cursoid.kaupen"
+  },
+  "template_item": "cursoid:kaupen_armor_trim_smithing_template"
+}

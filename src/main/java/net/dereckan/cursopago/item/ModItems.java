@@ -9,6 +9,8 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlag;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -56,13 +58,17 @@ public class ModItems {
     public static final Item FLUORITE_HORSE_ARMOR = registerItem("fluorite_horse_armor", new AnimalArmorItem(ModArmorMaterial.FLUORITE_ARMOR_MATERIAL,
             AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()));
 
-    /**
-     * Este metodo lo reusaremos para cuando queramos crear nuevos items.
-     * Este metodo tomara dos parametros name e item, y los registrara en el registro de Minecraft
-     * Registries.ITEM: El registro de items de Minecraft
-     * Identifier.of(): Crea un identificador único para el item usando el ID del mod y el nombre
-     * Retorna el Item registrado.
-     */
+    public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(CursoDeMinecraftPago.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
+
+            /**
+             * Este metodo lo reusaremos para cuando queramos crear nuevos items.
+             * Este metodo tomara dos parametros name e item, y los registrara en el registro de Minecraft
+             * Registries.ITEM: El registro de items de Minecraft
+             * Identifier.of(): Crea un identificador único para el item usando el ID del mod y el nombre
+             * Retorna el Item registrado.
+             */
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CursoDeMinecraftPago.MOD_ID, name), item);
     }
