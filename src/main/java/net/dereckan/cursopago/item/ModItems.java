@@ -53,6 +53,9 @@ public class ModItems {
     public static final Item FLUORITE_BOOTS = registerItem("fluorite_boots", new ArmorItem(ModArmorMaterial.FLUORITE_ARMOR_MATERIAL,
             ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
+    public static final Item FLUORITE_HORSE_ARMOR = registerItem("fluorite_horse_armor", new AnimalArmorItem(ModArmorMaterial.FLUORITE_ARMOR_MATERIAL,
+            AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()));
+
     /**
      * Este metodo lo reusaremos para cuando queramos crear nuevos items.
      * Este metodo tomara dos parametros name e item, y los registrara en el registro de Minecraft

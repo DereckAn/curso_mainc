@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-01T15:40:46.008798	Curso de Minecraft Pago/Model Definitions
+// 1.21.1	2025-01-02T04:08:29.515548	Curso de Minecraft Pago/Model Definitions
 3b4a0c5df17afc8870a956c3dd8f8dcc299b38ce assets/cursoid/blockstates/fluorite_nether_ore.json
 e1c4f27673d77fdad8699c9d6857d7592b53dae4 assets/cursoid/models/block/fluorite_stairs.json
 802a030c6394491ff328f30fdecece632cfc9920 assets/cursoid/models/block/fluorite_wall_side.json
@@ -17,8 +17,8 @@ f957de3888e81b9d9230c258f6372b681949737d assets/cursoid/models/item/fluorite_axe
 48a486c6baf15c6926bd610f44a90468627d442e assets/cursoid/models/item/fluorite_boots_netherite_trim.json
 8dd0040fc26f48dfbf5d533c138f8354defb4976 assets/cursoid/models/block/fluorite_slab.json
 7d8af880c140d6c01b7425ee6bdc0e6aa689b1da assets/cursoid/models/item/fluorite_chestplate_netherite_trim.json
-c29fe25684258c00d1b72a02e3ff666797cf1153 assets/cursoid/models/block/fluorite_button_inventory.json
 6ada47d5191e663ce8d95a136cd4e149ff37262f assets/cursoid/models/item/fluorite_boots_copper_trim.json
+c29fe25684258c00d1b72a02e3ff666797cf1153 assets/cursoid/models/block/fluorite_button_inventory.json
 702b8f971940181ee71e0f9a6991d942865e70a8 assets/cursoid/blockstates/fluorite_wall.json
 f04d25fe0113cb6b2bdb781364ea31b90fa5f69c assets/cursoid/models/block/fluorite_fence_inventory.json
 4cedc9ead64730532d04b29cdd5ac21729ce04c4 assets/cursoid/models/block/fluorite_block.json
@@ -34,6 +34,7 @@ d70bc50fa2658fa0a5e192d2e0601fa0eecc049f assets/cursoid/models/block/fluorite_de
 217768d45c5f864a5e01db99c9e08c727d4aa4e4 assets/cursoid/models/item/fluorite_helmet_iron_trim.json
 beee5746b40080ec46e9b58e45732b81abaa381f assets/cursoid/models/item/fluorite_hoe.json
 1cbef3ff0c943e556518e9fc24b5f463c46bbcd8 assets/cursoid/models/block/fluorite_wall_post.json
+06b369113ca71852af83813eee51733dc25e2dd1 assets/cursoid/models/item/fluorite_horse_armor.json
 5631791ae20f6c6f9c7030371a69d68e2a33f588 assets/cursoid/models/block/fluorite_door_top_right_open.json
 c2dc7cc3678ba96887b28e14c4935295b8322e19 assets/cursoid/models/item/fluorite_chestplate_quartz_trim.json
 d24d50493275a6896eb1bdd0ed7ccbe2bc9531dc assets/cursoid/models/item/chainsaw.json
@@ -61,8 +62,8 @@ e728adfb359334caaebcaa2cdd86634f896ee9b8 assets/cursoid/models/block/fluorite_do
 20dc68c46dd1ef08614353e25b63a6d018ee1604 assets/cursoid/models/item/fluorite_pickaxe.json
 d0db600d0ca82a5cfef7c0c025dc35d171efd0c7 assets/cursoid/models/item/fluorite_boots_gold_trim.json
 46750e5a6cc57c8d972c314b0714e452d1117202 assets/cursoid/models/item/fluorite_block.json
-a73de29ec0db2071d8a3a69c77bc32af8dd2cc23 assets/cursoid/models/item/fluorite_chestplate_redstone_trim.json
 aecc62a9b40e7f5feaed1e4c7ab7376bf1af827a assets/cursoid/models/item/fluorite_helmet_gold_trim.json
+a73de29ec0db2071d8a3a69c77bc32af8dd2cc23 assets/cursoid/models/item/fluorite_chestplate_redstone_trim.json
 04d41cbed4bca1ac9f8958965b22ee10c34a5323 assets/cursoid/models/item/fluorite_boots_quartz_trim.json
 8de197c9f765c057632bf7bda194868cfc670bd8 assets/cursoid/models/item/fluorite_leggings_quartz_trim.json
 a3579b7e86f7453cbac458342b55f40807f705cd assets/cursoid/models/block/fluorite_stairs_outer.json
