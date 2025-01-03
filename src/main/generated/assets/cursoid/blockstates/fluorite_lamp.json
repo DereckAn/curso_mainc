@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "cursoid:block/fluorite_lamp_on"
+    },
+    "clicked=true": {
+      "model": "cursoid:block/fluorite_lamp"
+    }
+  }
+}

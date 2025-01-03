@@ -1,7 +1,7 @@
 package net.dereckan.cursopago.block;
 
-import com.jcraft.jogg.Page;
 import net.dereckan.cursopago.CursoDeMinecraftPago;
+import net.dereckan.cursopago.block.custom.FluoriteLampBlock;
 import net.dereckan.cursopago.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -11,8 +11,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
-
-import java.awt.*;
 
 /**
  * Clase que maneja el registro de nuevos bloques para el mod.
@@ -103,6 +101,12 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .nonOpaque()
                     .requiresTool()));
+
+    public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
+            new FluoriteLampBlock(AbstractBlock.Settings.create().strength(4f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool()
+                    .luminance(state -> state.get(FluoriteLampBlock.CLICKDED) ? 15 : 0)));
 
 
     /**

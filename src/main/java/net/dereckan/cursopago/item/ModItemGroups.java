@@ -55,6 +55,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_WALL);
                         entries.add(ModBlocks.FLUORITE_DOOR);
                         entries.add(ModBlocks.FLUORITE_TRAPDOOR);
+                        entries.add(ModBlocks.FLUORITE_LAMP);
                     }).build());
 
 

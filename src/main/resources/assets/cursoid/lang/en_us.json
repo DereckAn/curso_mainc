@@ -32,6 +32,7 @@
   "block.cursoid.fluorite_wall": "Fluorite Wall",
   "block.cursoid.fluorite_trapdoor": "Fluorite Trapdoor",
   "block.cursoid.fluorite_door": "Fluorite Door",
+  "block.cursoid.fluorite_lamp": "Fluorite Lamp",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks",
   "tooltip.cursoid.chainsaw.tooltip.shift": "Hold §eSHIFT§r for more information!",
