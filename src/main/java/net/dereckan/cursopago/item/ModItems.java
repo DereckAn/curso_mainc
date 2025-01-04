@@ -61,6 +61,9 @@ public class ModItems {
     public static final Item KAUPEN_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(CursoDeMinecraftPago.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
 
+    public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new Item.Settings().maxDamage(200)));
+    public static final Item DATA_TABLET = registerItem("data_tablet", new DataTableItem(new Item.Settings().maxCount(1)));
+
             /**
              * Este metodo lo reusaremos para cuando queramos crear nuevos items.
              * Este metodo tomara dos parametros name e item, y los registrara en el registro de Minecraft

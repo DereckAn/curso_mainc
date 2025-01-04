@@ -1,6 +1,7 @@
 package net.dereckan.cursopago;
 
 import net.dereckan.cursopago.block.ModBlocks;
+import net.dereckan.cursopago.components.ModDataComponentTypes;
 import net.dereckan.cursopago.item.ModItemGroups;
 import net.dereckan.cursopago.item.ModItems;
 import net.dereckan.cursopago.util.HammerUsageEvent;
@@ -20,6 +21,7 @@ public class CursoDeMinecraftPago implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModDataComponentTypes.registerDataComponentTypes();
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
         PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
     }

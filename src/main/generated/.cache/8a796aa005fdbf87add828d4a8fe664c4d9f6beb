@@ -1,8 +1,8 @@
-// 1.21.1	2025-01-03T13:31:55.877574	Curso de Minecraft Pago/Tags for minecraft:block
+// 1.21.1	2025-01-04T04:15:20.495825	Curso de Minecraft Pago/Tags for minecraft:block
 221465df70b44b9129b5d88ca36cd6e3270fd5c6 data/minecraft/tags/block/fences.json
 31c1a919e256c332c91962b5f6f2d90721adf0c8 data/minecraft/tags/block/needs_iron_tool.json
-629c972d731d507c5ea27a3c81b4d9ace7a2832e data/minecraft/tags/block/mineable/pickaxe.json
 c6a7d3da8e26f0b4fc0ae2e157f1269f9e9e7e60 data/minecraft/tags/block/walls.json
+629c972d731d507c5ea27a3c81b4d9ace7a2832e data/minecraft/tags/block/mineable/pickaxe.json
 f0db3028d3ce7f50c5e1c97362e7f3884882709c data/minecraft/tags/block/needs_diamond_tool.json
 2ecd0715cfadf545f0bca3344e280fef26404ba7 data/minecraft/tags/block/fence_gates.json
 82362cfbd1836db13c7e9d36c8712821e795ac55 data/cursoid/tags/block/paxel_mineable.json
