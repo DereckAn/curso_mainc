@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cursoid:item/data_tablet_off"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cursoid:on": 1
+      },
+      "model": "cursoid:item/data_tablet_on"
+    }
+  ]
+}

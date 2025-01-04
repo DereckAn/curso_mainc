@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-04T04:15:20.496515	Curso de Minecraft Pago/Model Definitions
+// 1.21.1	2025-01-04T14:53:41.510305	Curso de Minecraft Pago/Model Definitions
 3b4a0c5df17afc8870a956c3dd8f8dcc299b38ce assets/cursoid/blockstates/fluorite_nether_ore.json
 e1c4f27673d77fdad8699c9d6857d7592b53dae4 assets/cursoid/models/block/fluorite_stairs.json
 802a030c6394491ff328f30fdecece632cfc9920 assets/cursoid/models/block/fluorite_wall_side.json
@@ -13,8 +13,8 @@ ffff5269e535e14e5159087ecf453a173509957b assets/cursoid/models/block/fluorite_fe
 07b384ac22a4c0bde2fd47d2ff0af195d25fa1cd assets/cursoid/models/item/fluorite_fence_gate.json
 a3492f9e5015c9e0b3cbf599aeb86f8b874b4457 assets/cursoid/models/block/fluorite_fence_gate_wall.json
 74bd289952f36220850a5835a72582c011edbb86 assets/cursoid/models/block/fluorite_door_top_left.json
-a02a3bae76d4d09dbd88769312b6a3a3e8fbbc5e assets/cursoid/models/block/fluorite_wall_side_tall.json
 f957de3888e81b9d9230c258f6372b681949737d assets/cursoid/models/item/fluorite_axe.json
+a02a3bae76d4d09dbd88769312b6a3a3e8fbbc5e assets/cursoid/models/block/fluorite_wall_side_tall.json
 0a566c98e57f2a80804a2b9d8d1070fb5b146eda assets/cursoid/models/item/fluorite_boots_emerald_trim.json
 48a486c6baf15c6926bd610f44a90468627d442e assets/cursoid/models/item/fluorite_boots_netherite_trim.json
 8dd0040fc26f48dfbf5d533c138f8354defb4976 assets/cursoid/models/block/fluorite_slab.json
@@ -41,9 +41,9 @@ beee5746b40080ec46e9b58e45732b81abaa381f assets/cursoid/models/item/fluorite_hoe
 c2dc7cc3678ba96887b28e14c4935295b8322e19 assets/cursoid/models/item/fluorite_chestplate_quartz_trim.json
 d24d50493275a6896eb1bdd0ed7ccbe2bc9531dc assets/cursoid/models/item/chainsaw.json
 a6e391ae094afe33c19ae886fa6c67c6a9e21d2c assets/cursoid/blockstates/fluorite_block.json
+eab7a3e318ec0c76b0c697cdbf1395dca4c8d7b8 assets/cursoid/models/item/fluorite_nether_ore.json
 8cbd088d5161dffee22c768222bbe4e0ed3997aa assets/cursoid/models/item/fluorite_leggings_emerald_trim.json
 47d8850ce9b5a565415a7a099da54703d7a06ab8 assets/cursoid/models/block/fluorite_stairs_inner.json
-eab7a3e318ec0c76b0c697cdbf1395dca4c8d7b8 assets/cursoid/models/item/fluorite_nether_ore.json
 2861f0ddd8c3e6e58083d2223672c7df7326c46d assets/cursoid/models/item/fluorite_paxel.json
 1ff8cf8ce06967505e1872cfdd440a3d2c1894fc assets/cursoid/models/item/fluorite_chestplate_gold_trim.json
 7b81a5d64a391d87cd925bca3c72da6a8b4bd0db assets/cursoid/models/block/fluorite_door_bottom_left_open.json
@@ -76,8 +76,8 @@ f7392a8cccb005164f4c179d1e739d3366e8a7f3 assets/cursoid/models/item/fluorite_swo
 4e271e313ce110c069b7c1019d76caa69262b86f assets/cursoid/blockstates/fluorite_door.json
 a8d46a0931fded05dff8c026b10cc31e1966f423 assets/cursoid/models/item/fluorite_wall.json
 afe085c2fec5825ff6af588d4ce28bca808a6d40 assets/cursoid/models/block/fluorite_pressure_plate_down.json
-37acb008f585038023d481ed2763414898d7615a assets/cursoid/models/block/fluorite_nether_ore.json
 65158325ec1463b853cd3f7f5be8237ebe602279 assets/cursoid/blockstates/fluorite_fence.json
+37acb008f585038023d481ed2763414898d7615a assets/cursoid/models/block/fluorite_nether_ore.json
 aa0303be7ddff9d6b85081256a23261a3597dbbf assets/cursoid/models/item/fluorite.json
 90ca376ed155564b8d415130389e98b9c1175b3e assets/cursoid/models/item/fluorite_leggings_netherite_trim.json
 084ca274369b413efe03cf01d1f2d71547b8c5c1 assets/cursoid/models/item/data_tablet.json
