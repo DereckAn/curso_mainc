@@ -1,0 +1,6 @@
+{
+    "parent": "cursoid:item/fluorite_bow",
+    "textures": {
+        "layer0": "cursoid:item/fluorite_bow_pulling_0"
+    }
+}
