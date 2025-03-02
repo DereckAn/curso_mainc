@@ -1,6 +1,7 @@
 package net.dereckan.cursopago.item;
 
 import net.dereckan.cursopago.CursoDeMinecraftPago;
+import net.dereckan.cursopago.block.ModBlocks;
 import net.dereckan.cursopago.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -65,6 +66,9 @@ public class ModItems {
     public static final Item DATA_TABLET = registerItem("data_tablet", new DataTableItem(new Item.Settings().maxCount(1)));
 
     public static final Item FLUORITE_BOW = registerItem("fluorite_bow", new BowItem(new Item.Settings().maxDamage(384)));
+
+    public static final Item STRAWBERRY_SEEDS = registerItem("strawberry_seeds", new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP,
+            new Item.Settings()));
 
             /**
              * Este metodo lo reusaremos para cuando queramos crear nuevos items.

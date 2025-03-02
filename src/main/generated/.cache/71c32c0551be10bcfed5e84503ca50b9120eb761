@@ -1,12 +1,13 @@
-// 1.21.1	2025-02-08T13:08:24.233976	Curso de Minecraft Pago/Block Loot Tables
+// 1.21.1	2025-03-02T02:17:15.943196	Curso de Minecraft Pago/Block Loot Tables
 33d157b5998d6d5dd27e0dbd722e1cee5237c8ae data/cursoid/loot_table/blocks/fluorite_deepslate_ore.json
 07a1797232aa4b8443b865f89abe2a4ebae4b0e6 data/cursoid/loot_table/blocks/fluorite_door.json
 60fa629ea3ea12aa60fc33b553bed64c8c30f84a data/cursoid/loot_table/blocks/magic_block.json
 6506308fbd784421315af07a8a6e0f7540628a9a data/cursoid/loot_table/blocks/fluorite_ore.json
 d66fe539966d688491f3e44fa9091673e4589a84 data/cursoid/loot_table/blocks/fluorite_lamp.json
-278997e1ea34cfc6281be48820e02ac3278c0e06 data/cursoid/loot_table/blocks/fluorite_stairs.json
 02d543433e968720b5616aee653203b4ca825191 data/cursoid/loot_table/blocks/fluorite_nether_ore.json
 d0b2fa2e9f92e0a603d8686bc1bae5203d53a8bf data/cursoid/loot_table/blocks/fluorite_end_ore.json
 818e3e1403efb23158ff9c18182a3ece39491195 data/cursoid/loot_table/blocks/fluorite_block.json
-5f7454d88c11b43bfa9310a05471ca55c5d29d64 data/cursoid/loot_table/blocks/fluorite_trapdoor.json
 6d426f2e2ca7fc08422e5c339e555478d53f23cd data/cursoid/loot_table/blocks/fluorite_slab.json
+0b9ce6335d9696e2ee52ac4eda79707a44494f1f data/cursoid/loot_table/blocks/strawberry_crop.json
+278997e1ea34cfc6281be48820e02ac3278c0e06 data/cursoid/loot_table/blocks/fluorite_stairs.json
+5f7454d88c11b43bfa9310a05471ca55c5d29d64 data/cursoid/loot_table/blocks/fluorite_trapdoor.json

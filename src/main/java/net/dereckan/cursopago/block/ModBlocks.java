@@ -3,6 +3,7 @@ package net.dereckan.cursopago.block;
 import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.dereckan.cursopago.block.custom.FluoriteLampBlock;
 import net.dereckan.cursopago.block.custom.MagicBlock;
+import net.dereckan.cursopago.block.custom.StrawberryCropBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -107,6 +108,15 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .requiresTool()
                     .luminance(state -> state.get(FluoriteLampBlock.CLICKDED) ? 15 : 0)));
+
+
+    public static final Block STRAWBERRY_CROP = registerBlockWithoutBlockItem("strawberry_crop",
+        new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(CursoDeMinecraftPago.MOD_ID, name), block);
+    }
 
 
     /**

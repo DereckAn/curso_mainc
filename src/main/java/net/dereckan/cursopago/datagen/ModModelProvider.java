@@ -2,6 +2,7 @@ package net.dereckan.cursopago.datagen;
 
 import net.dereckan.cursopago.block.ModBlocks;
 import net.dereckan.cursopago.block.custom.FluoriteLampBlock;
+import net.dereckan.cursopago.block.custom.StrawberryCropBlock;
 import net.dereckan.cursopago.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -38,6 +39,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.FLUORITE_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.FLUORITE_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(FluoriteLampBlock.CLICKDED, lampOffIdentifier, lampOnIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
@@ -65,6 +68,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
+
+//        itemModelGenerator.register(ModItems.STRAWBERRY_SEEDS, Models.GENERATED);
 
 
     }
