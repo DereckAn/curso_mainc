@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-02T02:17:15.941358	Curso de Minecraft Pago/Model Definitions
+// 1.21.1	2025-03-02T22:56:19.585694	Curso de Minecraft Pago/Model Definitions
 3b4a0c5df17afc8870a956c3dd8f8dcc299b38ce assets/cursoid/blockstates/fluorite_nether_ore.json
 e1c4f27673d77fdad8699c9d6857d7592b53dae4 assets/cursoid/models/block/fluorite_stairs.json
 802a030c6394491ff328f30fdecece632cfc9920 assets/cursoid/models/block/fluorite_wall_side.json
@@ -100,8 +100,8 @@ c92775993d2ced7b0ecd9584dc04de1be819dbff assets/cursoid/blockstates/fluorite_ore
 cc1cd9e8d4b7c4d2579dcd60e225d62df7dd9597 assets/cursoid/models/item/fluorite_boots_diamond_trim.json
 42c4bb9da4f3166d35af6adffa01b3e012b74498 assets/cursoid/models/block/fluorite_trapdoor_open.json
 bea8e22b4a36d234c0d6c1cad7c247b5a6ff8a8c assets/cursoid/models/block/fluorite_end_ore.json
-48e93d763dcb66272840c49309b463a1df12751b assets/cursoid/models/block/fluorite_ore.json
 66917235b7f9655b9bfa66d4310a10b389a8c6f0 assets/cursoid/models/item/fluorite_leggings_copper_trim.json
+48e93d763dcb66272840c49309b463a1df12751b assets/cursoid/models/block/fluorite_ore.json
 34c354f6adcf51799c89f01c248f0a078d047cf4 assets/cursoid/models/item/fluorite_helmet_redstone_trim.json
 47784e6e7645df0e9b5f05dedf394e291e50fe8b assets/cursoid/models/item/fluorite_boots_lapis_trim.json
 a8bd23b1f6fb4420a3f636deb1bb9ddbc89903a9 assets/cursoid/models/item/fluorite_hammer.json
