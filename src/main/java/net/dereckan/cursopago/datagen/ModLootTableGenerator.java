@@ -38,7 +38,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FLUORITE_END_ORE, customOreDrops(ModBlocks.FLUORITE_END_ORE, ModItems.RAW_FLUORITE, 3, 6));
 
         addDrop(ModBlocks.FLUORITE_STAIRS);
-        addDrop(ModBlocks.FLUORITE_SLAB,slabDrops(ModBlocks.FLUORITE_SLAB));
+        addDrop(ModBlocks.FLUORITE_SLAB, slabDrops(ModBlocks.FLUORITE_SLAB));
 
         addDrop(ModBlocks.FLUORITE_DOOR, doorDrops(ModBlocks.FLUORITE_DOOR));
         addDrop(ModBlocks.FLUORITE_TRAPDOOR);
@@ -48,6 +48,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.STRAWBERRY_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(StrawberryCropBlock.AGE, 5));
         this.addDrop(ModBlocks.STRAWBERRY_CROP, this.cropDrops(ModBlocks.STRAWBERRY_CROP, ModItems.STRAWBERRY, ModItems.STRAWBERRY_SEEDS, builder));
+
+        addDrop(ModBlocks.DAHLIA);
+        addDrop(ModBlocks.POTTED_DAHLIA, pottedPlantDrops(ModBlocks.DAHLIA));
     }
 
     public LootTable.Builder customOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

@@ -41,6 +41,8 @@ public class ModModelProvider extends FabricModelProvider {
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(FluoriteLampBlock.CLICKDED, lampOffIdentifier, lampOnIdentifier)));
 
         blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA, ModBlocks.POTTED_DAHLIA, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override
@@ -67,9 +69,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
-        itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
 
 //        itemModelGenerator.register(ModItems.STRAWBERRY_SEEDS, Models.GENERATED);
+
 
 
     }

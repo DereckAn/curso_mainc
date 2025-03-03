@@ -5,6 +5,7 @@ import net.dereckan.cursopago.block.custom.FluoriteLampBlock;
 import net.dereckan.cursopago.block.custom.MagicBlock;
 import net.dereckan.cursopago.block.custom.StrawberryCropBlock;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -111,13 +112,20 @@ public class ModBlocks {
 
 
     public static final Block STRAWBERRY_CROP = registerBlockWithoutBlockItem("strawberry_crop",
-        new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+            new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block DAHLIA = registerBlock("dahlia",
+            new FlowerBlock(StatusEffects.INVISIBILITY, 4, AbstractBlock.Settings.copy(Blocks.ALLIUM)));
+
+    public static final Block POTTED_DAHLIA = registerBlockWithoutBlockItem("potted_dahlia",
+            new FlowerPotBlock(DAHLIA, AbstractBlock.Settings.copy(Blocks.POTTED_ALLIUM)));
+
+
 
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(CursoDeMinecraftPago.MOD_ID, name), block);
     }
-
 
     /**
      * Registra un nuevo bloque en el juego y su item correspondiente.

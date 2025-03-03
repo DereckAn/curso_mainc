@@ -39,6 +39,8 @@
   "block.cursoid.fluorite_door": "Fluorite Door",
   "block.cursoid.fluorite_lamp": "Fluorite Lamp",
   "block.cursoid.strawberry_crop": "Strawberry Crop",
+  "block.cursoid.dahlia": "Dahlia",
+  "block.cursoid.potted_dahlia": "Potted Dahlia",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks",
   "tooltip.cursoid.chainsaw.tooltip.shift": "Hold §eSHIFT§r for more information!",
