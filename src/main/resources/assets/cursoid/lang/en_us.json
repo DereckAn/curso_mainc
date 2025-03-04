@@ -41,6 +41,7 @@
   "block.cursoid.strawberry_crop": "Strawberry Crop",
   "block.cursoid.dahlia": "Dahlia",
   "block.cursoid.potted_dahlia": "Potted Dahlia",
+  "block.cursoid.colored_leaves": "Colored Leaves",
   "itemgroup.fluorite": "Fluorite Items",
   "itemgroup.fluorite_blocks": "Fluorite Blocks",
   "tooltip.cursoid.chainsaw.tooltip.shift": "Hold §eSHIFT§r for more information!",
