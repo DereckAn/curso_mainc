@@ -6,7 +6,8 @@
 		"ExampleMixin"
 	],
 	"client": [
-		"AbstractClientPlayerEntityMixin"
+		"AbstractClientPlayerEntityMixin",
+		"ModEntityDataSaverMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
