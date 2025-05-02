@@ -8,6 +8,7 @@ import net.dereckan.cursopago.event.AttackEntityHandler;
 import net.dereckan.cursopago.event.PlayerCopyHandler;
 import net.dereckan.cursopago.item.ModItemGroups;
 import net.dereckan.cursopago.item.ModItems;
+import net.dereckan.cursopago.sound.ModSounds;
 import net.dereckan.cursopago.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
@@ -29,6 +30,7 @@ public class CursoDeMinecraftPago implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModSounds.registerSounds();
         ModDataComponentTypes.registerDataComponentTypes();
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
         PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());

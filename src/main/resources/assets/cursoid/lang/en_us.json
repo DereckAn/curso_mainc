@@ -51,5 +51,7 @@
   "tooltip.cursoid.magic_block.1": "This block is a §9magic§r block.",
   "tooltip.cursoid.strawberry.tooltip.1": "This is a §cstrawberry§r.",
   "trim_material.cursoid.fluorite": "Fluorite Material",
-  "trim_pattern.cursoid.kaupen": "Kaupen Armor Pattern"
+  "trim_pattern.cursoid.kaupen": "Kaupen Armor Pattern",
+  "sounds.cursoid.chainsaw_cut": "Chainsaw Sounds",
+  "sounds.cursoid.chainsaw_pull": "Pulling Chainsaw Sounds"
 }

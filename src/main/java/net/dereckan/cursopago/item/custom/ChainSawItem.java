@@ -1,6 +1,7 @@
 package net.dereckan.cursopago.item.custom;
 
 import net.dereckan.cursopago.components.ModDataComponentTypes;
+import net.dereckan.cursopago.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
@@ -11,6 +12,7 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -78,6 +80,13 @@ public class ChainSawItem extends Item {
                 );
 
                 context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+                context.getWorld().playSound(null, context.getBlockPos(),
+                                             ModSounds.CHAINSAW_CUT,
+                                             SoundCategory.BLOCKS, 1f,1f );
+            } else {
+                context.getWorld().playSound(null, context.getBlockPos(),
+                                             ModSounds.CHAINSAW_PULL,
+                                             SoundCategory.BLOCKS, 1f,1f );
             }
         }
 
