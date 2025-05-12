@@ -4,6 +4,7 @@ import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.dereckan.cursopago.block.custom.FluoriteLampBlock;
 import net.dereckan.cursopago.block.custom.MagicBlock;
 import net.dereckan.cursopago.block.custom.StrawberryCropBlock;
+import net.dereckan.cursopago.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -55,7 +56,8 @@ public class ModBlocks {
                     .requiresTool()));
 
     public static final Block MAGIN_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(
+                  ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
             new StairsBlock(ModBlocks.FLUORITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(4f)

@@ -10,5 +10,35 @@
     "sounds": [
       "cursoid:chainsaw_pull"
     ]
+  },
+  "magic_block_break": {
+    "subtitle": "sounds.cursoid.magic_block_break",
+    "sounds": [
+      "cursoid:magic_block_break"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.cursoid.magic_block_fall",
+    "sounds": [
+      "cursoid:magic_block_fall"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.cursoid.magic_block_hit",
+    "sounds": [
+      "cursoid:magic_block_hit"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.cursoid.magic_block_step",
+    "sounds": [
+      "cursoid:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.cursoid.magic_block_place",
+    "sounds": [
+      "cursoid:magic_block_place"
+    ]
   }
 }
