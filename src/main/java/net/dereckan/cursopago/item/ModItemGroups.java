@@ -38,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DATA_TABLET);
                         entries.add(ModItems.FLUORITE_BOW);
                         entries.add(ModItems.STRAWBERRY_SEEDS);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                     }).build());
 
     public static final ItemGroup FLUORITE_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,

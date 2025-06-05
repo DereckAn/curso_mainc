@@ -40,5 +40,13 @@
     "sounds": [
       "cursoid:magic_block_place"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "cursoid:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

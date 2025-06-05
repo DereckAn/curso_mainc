@@ -3,6 +3,7 @@ package net.dereckan.cursopago.item;
 import net.dereckan.cursopago.CursoDeMinecraftPago;
 import net.dereckan.cursopago.block.ModBlocks;
 import net.dereckan.cursopago.item.custom.*;
+import net.dereckan.cursopago.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffects;
@@ -69,6 +70,10 @@ public class ModItems {
 
     public static final Item STRAWBERRY_SEEDS = registerItem("strawberry_seeds", new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP,
             new Item.Settings()));
+
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc", new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY)));
+
 
             /**
              * Este metodo lo reusaremos para cuando queramos crear nuevos items.
